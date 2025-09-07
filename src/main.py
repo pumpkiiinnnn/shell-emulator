@@ -8,8 +8,7 @@ while True:
     command = input(prompt)
     parts=command.split()
 
-    if command.strip() == "exit":
-        print("Выход из эмулятора...")
+    if parts[0] == "exit":
         break
     #print("Вы ввели:", command)
     elif parts[0]== "echo":
