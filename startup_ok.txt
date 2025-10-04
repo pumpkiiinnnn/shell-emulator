@@ -1,0 +1,5 @@
+#Скрипт без ошибок
+echo привет
+pwd
+ls file1 file2
+cd /home/user
