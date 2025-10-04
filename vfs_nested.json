@@ -1,0 +1,36 @@
+{
+  "type": "dir",
+  "name": "/",
+  "children": [
+    {
+      "type": "dir",
+      "name": "docs",
+      "children": [
+        {
+          "type": "file",
+          "name": "readme.txt",
+          "encoding": "text",
+          "content": "Это файл readme.txt в папке docs"
+        },
+        {
+          "type": "file",
+          "name": "guide.txt",
+          "encoding": "text",
+          "content": "А это файл guide.txt в папке docs"
+        }
+      ]
+    },
+    {
+      "type": "dir",
+      "name": "images",
+      "children": [
+        {
+          "type": "file",
+          "name": "logo.png",
+          "encoding": "base64",
+          "content": "SGVsbG8gd29ybGQh"
+        }
+      ]
+    }
+  ]
+}

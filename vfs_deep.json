@@ -1,0 +1,42 @@
+{
+  "type": "dir",
+  "name": "/",
+  "children": [
+    {
+      "type": "dir",
+      "name": "level1",
+      "children": [
+        {
+          "type": "dir",
+          "name": "level2",
+          "children": [
+            {
+              "type": "dir",
+              "name": "level3",
+              "children": [
+                {
+                  "type": "file",
+                  "name": "deep.txt",
+                  "encoding": "text",
+                  "content": "Это файл на третьем уровне вложенности"
+                }
+              ]
+            },
+            {
+              "type": "file",
+              "name": "middle.txt",
+              "encoding": "text",
+              "content": "Это файл на втором уровне"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "root.txt",
+      "encoding": "text",
+      "content": "Файл прямо в корне"
+    }
+  ]
+}

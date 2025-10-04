@@ -1,0 +1,19 @@
+{
+  "type": "dir",
+  "name": "/",
+  "children": [
+    {
+      "type": "dir",
+      "name": "docs",
+      "children": [
+        { "type": "file", "name": "readme.txt", "encoding": "text", "content": "Привет!" }
+      ]
+    },
+    {
+      "type": "file",
+      "name": "image.png",
+      "encoding": "base64",
+      "content": "<base64-строка>"
+    }
+  ]
+}
