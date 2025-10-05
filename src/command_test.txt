@@ -1,0 +1,11 @@
+#Тестирование команд
+pwd
+ls
+cd level1
+pwd
+ls
+rev hello
+rev file.txt
+cd ..
+pwd
+exit
