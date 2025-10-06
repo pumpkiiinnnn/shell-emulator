@@ -1,0 +1,3 @@
+--vfs-path src/vfs_deep.json --script src/command_test.txt
+--vfs-path src/vfs_minimal.json --script src/startup_ok.txt
+--vfs-path src/vfs_nested.json --script src/command.txt
